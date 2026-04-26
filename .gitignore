@@ -1,0 +1,29 @@
+# Don't commit your actual leader data
+leaders.json
+leaders.*.json
+!examples/leaders.starter.json
+!examples/leaders.full.json
+!leader-review/assets/leaders_template.json
+
+# Build artifacts
+*.skill
+build/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python (in case scripts get extended)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log

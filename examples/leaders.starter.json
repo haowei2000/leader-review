@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "owner": "your-handle",
+  "last_updated": "2026-04-26",
+  "leaders": [
+    {
+      "id": "my-manager",
+      "name": "Your Manager's Name",
+      "role": "Their Title",
+      "relationship": "direct-manager",
+      "seniority_distance": 1,
+      "current_priorities": [
+        "fill in 1-3 things they're focused on this quarter"
+      ],
+      "what_they_appreciate": [
+        "fill in 1-3 things they consistently respond well to"
+      ],
+      "red_flags": [
+        "fill in 1-3 things that reliably annoy them"
+      ],
+      "recent_interactions": [],
+      "quotes": [],
+      "feedback_patterns": [],
+      "relationship_state": {
+        "trust_level": "building",
+        "current_standing": "neutral — describe in your own words",
+        "notes": ""
+      }
+    }
+  ]
+}

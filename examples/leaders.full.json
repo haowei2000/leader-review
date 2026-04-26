@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "owner": "alex-pm",
+  "last_updated": "2026-04-26",
+  "leaders": [
+    {
+      "id": "sarah-director-product",
+      "name": "Sarah Chen",
+      "role": "Director of Product",
+      "relationship": "direct-manager",
+      "seniority_distance": 1,
+
+      "personality": {
+        "traits": ["analytical", "patient in 1:1s but blunt in group settings", "skeptical of vague timelines"],
+        "communication_style": "prefers written docs over meetings; reads everything end-to-end; expects a TL;DR in the first 3 lines",
+        "energy": "measured, low-volatility"
+      },
+
+      "decision_style": {
+        "speed": "deliberate — sleeps on big decisions",
+        "evidence": "data-driven, but values customer quotes too",
+        "process": "consults 1-2 trusted ICs before deciding",
+        "notes": "Once a decision is made, treats it as final. Re-litigating is the fastest way to lose trust."
+      },
+
+      "current_priorities": [
+        "shipping the v2 platform on time (Q3)",
+        "improving spec quality across the team",
+        "reducing dependency on the founders for product calls"
+      ],
+
+      "what_they_appreciate": [
+        "TL;DR + clear ask in the first 3 lines",
+        "options laid out with tradeoffs, not a single forced choice",
+        "owning a recommendation while staying open to pushback",
+        "showing the work — what was considered and rejected"
+      ],
+
+      "red_flags": [
+        "long preambles before the ask",
+        "proposals that don't acknowledge cost or risk",
+        "'we should consider X' without a recommendation",
+        "moving goalposts — restating what was already decided"
+      ],
+
+      "quotes": [
+        {
+          "date": "2026-03-15",
+          "context": "spec review",
+          "text": "I don't need you to be right. I need you to have a position."
+        },
+        {
+          "date": "2026-02-04",
+          "context": "1:1",
+          "text": "Stop telling me what's hard. Tell me what you're doing about it."
+        },
+        {
+          "date": "2026-01-20",
+          "context": "team all-hands",
+          "text": "If you can't put a number on it, you don't understand it yet."
+        }
+      ],
+
+      "feedback_patterns": [
+        "always asks 'what did you consider and reject?'",
+        "warms up when given a clear recommendation, even if she ends up disagreeing",
+        "uneasy when a doc doesn't name the cost of doing nothing",
+        "consistently rejects proposals that don't include a baseline metric"
+      ],
+
+      "recent_interactions": [
+        {
+          "date": "2026-04-20",
+          "type": "doc review",
+          "topic": "Q3 roadmap proposal",
+          "what_happened": "Read end-to-end, came back with 6 comments. Main concern: I had three options listed but didn't pick one. Said 'this reads like a survey, not a proposal.'",
+          "user_takeaway": "Always pick a horse. Even when 60/40, pick. She'd rather argue with a position than evaluate a menu."
+        },
+        {
+          "date": "2026-04-08",
+          "type": "1:1",
+          "topic": "team morale after the reorg",
+          "what_happened": "She asked what I was doing about it. I said I was 'monitoring.' She paused for 5 seconds, then said 'monitoring isn't doing.'",
+          "user_takeaway": "She has zero patience for passive verbs. Bring concrete actions."
+        },
+        {
+          "date": "2026-03-30",
+          "type": "slack",
+          "topic": "pricing experiment results",
+          "what_happened": "I shared early numbers. She replied 'baseline?' — that was the entire message.",
+          "user_takeaway": "Never share a metric without its baseline. Ever."
+        }
+      ],
+
+      "relationship_state": {
+        "trust_level": "solid",
+        "current_standing": "good — recently delivered the v1 milestone on schedule",
+        "notes": "Trust budget is high right now. Good time to push for stretch asks."
+      }
+    },
+
+    {
+      "id": "david-vp-product",
+      "name": "David Okonkwo",
+      "role": "VP of Product",
+      "relationship": "skip-level",
+      "seniority_distance": 2,
+
+      "personality": {
+        "traits": ["narrative-driven", "warm but exacting", "strong opinions on storytelling"],
+        "communication_style": "verbal more than written; will skim a doc but talk for an hour about it",
+        "energy": "high, performative in groups"
+      },
+
+      "decision_style": {
+        "speed": "fast on big calls, slow on details",
+        "evidence": "narrative + signal from customers > internal data",
+        "process": "decides, then sells the team on it",
+        "notes": "If you can't tell him the story in 90 seconds, he'll lose interest. He'll then ask for the doc, but he's already disengaged."
+      },
+
+      "current_priorities": [
+        "telling a coherent product story to the board",
+        "competitive positioning vs. the new entrant",
+        "exec hiring (looking for a Head of Design)"
+      ],
+
+      "what_they_appreciate": [
+        "a clear narrative arc — setup, conflict, resolution",
+        "customer quotes (real ones, attributed)",
+        "competitive context, even when it's uncomfortable",
+        "owning an opinion confidently, even if it's wrong"
+      ],
+
+      "red_flags": [
+        "spreadsheet-first thinking with no story",
+        "hedging language ('we might want to consider...')",
+        "ignoring competitors",
+        "process-talk without outcome-talk"
+      ],
+
+      "quotes": [
+        {
+          "date": "2026-03-22",
+          "context": "QBR",
+          "text": "I don't care about the dashboard. Tell me what changed for the customer."
+        }
+      ],
+
+      "feedback_patterns": [
+        "always asks 'what's the story?' before reading details",
+        "redirects spreadsheet-heavy reviews to 'who's the customer here?'",
+        "rewards confidence — disagrees with confident wrong answers more gently than with hedged correct ones"
+      ],
+
+      "recent_interactions": [
+        {
+          "date": "2026-04-15",
+          "type": "skip 1:1",
+          "topic": "career discussion",
+          "what_happened": "He asked what I wanted my next 12 months to look like. I had a vague answer. He said 'come back when you have a story.'",
+          "user_takeaway": "Even in 1:1s, he wants narrative. 'Story' is his unit of currency."
+        }
+      ],
+
+      "relationship_state": {
+        "trust_level": "building",
+        "current_standing": "positive but distant — we've only had 4 1:1s",
+        "notes": "Sarah filters most of my work to him. When he sees something directly, it's high-stakes."
+      }
+    }
+  ]
+}
