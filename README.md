@@ -1,5 +1,7 @@
 # leader-review
 
+**English** | [简体中文](README.zh.md)
+
 > A Claude skill that simulates your real-life leaders reviewing your work — and gets sharper over time as you log real interactions.
 
 [![Skill Format](https://img.shields.io/badge/Claude-Skill-7c3aed)](https://docs.claude.com)
